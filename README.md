@@ -10,9 +10,10 @@ The commands were
 'riscv64-unknown-elf-gcc -Ofast -g -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c'
 'riscv64-unknown-elf-objdump -d sum1ton.o | less'
 'spike -d pk sum1ton.o'
+'until pc <address_of_main>'
 
-'until pc <address_of_main>'![b  Running  - Oracle VirtualBox 29-12-2024 2 58 05 AM](https://github.com/user-attachments/assets/bc1d5d5f-ac39-4b43-bb02-36b9a5e4a834)
+![b  Running  - Oracle VirtualBox 29-12-2024 2 58 05 AM](https://github.com/user-attachments/assets/bc1d5d5f-ac39-4b43-bb02-36b9a5e4a834)
 
-![b 2 Running  - Oracle VirtualBox 29-12-2024 3 11 55 AM](https://github.com/user-attachments/assets/08677887-863a-4891-bf11-293f1593f3aa)
+![b 2 Running  - Oracle VirtualBox 29-12-2024 3 11 55 AM](https://github.com/user-attachments/assets/91f594c1-e627-4489-8cde-9855efd4e763)
 
-![b  Running  3- Oracle VirtualBox 29-12-2024 3 00 39 AM](https://github.com/user-attachments/assets/e50bdcdb-e3c6-4e77-b485-2df85e4ff7a2)
+![b  Running  3- Oracle VirtualBox 29-12-2024 3 00 39 AM](https://github.com/user-attachments/assets/14d55b40-1cb6-47f5-8d6f-6718f9b5e0e1)
